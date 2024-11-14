@@ -1,8 +1,8 @@
-module com.example.tictactoe {
+module com.example.rps {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.tictactoe to javafx.fxml;
-    exports com.example.tictactoe;
+    opens com.example.rps to javafx.fxml;
+    exports com.example.rps;
 }
